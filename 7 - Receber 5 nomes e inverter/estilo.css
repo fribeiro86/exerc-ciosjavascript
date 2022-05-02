@@ -1,0 +1,26 @@
+     div{
+     display: flex;
+     flex-direction: column;
+     width: 30%;
+     border-radius: 10px;
+     border: 1px solid rgb(206, 202, 202);
+     box-sizing: border-box;
+     padding: 20px;
+     box-shadow: 2px 2px 3px 3px rgb(221, 219, 219), 3px 3px 4px 4px rgb(243, 234, 234), 4px 4px 5px 5px rgb(221, 219, 219);
+     margin: 0px auto;
+    }
+    input,button{
+
+        margin: 15px;
+        padding: 10px;
+        text-align: center;
+        font-size: 22px;
+    }
+    button{
+        background-color: rgb(139, 214, 27);
+        font-size: 20px;
+        height: 40px;
+       border:1px solid rgb(139, 214, 27);
+        color: white;
+
+    }
