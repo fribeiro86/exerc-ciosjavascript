@@ -11,42 +11,42 @@
 </head>
 
 <body>
-    <form>
+    <form id="for">
         <fieldset>
             <legend>Cadastro Cliente</legend>
             <label for="nome">Nome</label>
-            <input type="text" id="nome" name="nome" onchange="alertar()">
+            <input type="text" id="nome" name="nome">
 
             <div id="radio">
 
-                <input type="radio" value="fisica" name="op" id="fisica">
+                <input type="radio" value="fisica" name="op" id="fisica" onclick="verificarStatus()" >
                 <label for="fisica">Pessoa Física</label>
                 <br>
-                <input type="radio" value="juridica" name="op" id="juridica">
+                <input type="radio" value="juridica" name="op" id="juridica" onclick="verificarStatus()" >
                 <label for="juridica">Pessoa Jurídica</label>
 
             </div>
 
             <label for="cpf">CPF</label>
-            <input type="text" id="cpf">
+            <input type="text" id="cpf" >
 
             <label for="cnpj">CNPJ</label>
             <input type="text" id="cnpj">
 
             <label for="dataNascimento">Data de Nascimento</label>
-            <input type="text" id="dataNascimento">
+            <input type="number" id="dataNascimento">
 
             <label for="endereco">Endereço</label>
             <input type="text" id="endereco">
 
             <label for="cep">CEP</label>
-            <input type="text" id="cep">
+            <input type="number" id="cep">
 
             <label for="telefone">Telefone</label>
-            <input type="text" id="telefone">
+            <input type="number" id="telefone">
 
             <label for="email">Email</label>
-            <input type="text" id="email">
+            <input type="email" id="email">
 
         </fieldset>
     </form>
