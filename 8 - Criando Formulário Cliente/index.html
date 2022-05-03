@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estilo.css">
+    <script src="./script.js"></script>
+    <title>Formulário Cliente</title>
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <legend>Cadastro Cliente</legend>
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" name="nome" onchange="alertar()">
+
+            <div id="radio">
+
+                <input type="radio" value="fisica" name="op" id="fisica">
+                <label for="fisica">Pessoa Física</label>
+                <br>
+                <input type="radio" value="juridica" name="op" id="juridica">
+                <label for="juridica">Pessoa Jurídica</label>
+
+            </div>
+
+            <label for="cpf">CPF</label>
+            <input type="text" id="cpf">
+
+            <label for="cnpj">CNPJ</label>
+            <input type="text" id="cnpj">
+
+            <label for="dataNascimento">Data de Nascimento</label>
+            <input type="text" id="dataNascimento">
+
+            <label for="endereco">Endereço</label>
+            <input type="text" id="endereco">
+
+            <label for="cep">CEP</label>
+            <input type="text" id="cep">
+
+            <label for="telefone">Telefone</label>
+            <input type="text" id="telefone">
+
+            <label for="email">Email</label>
+            <input type="text" id="email">
+
+        </fieldset>
+    </form>
+
+</body>
+
+</html>

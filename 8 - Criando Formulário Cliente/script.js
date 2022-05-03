@@ -1,0 +1,4 @@
+function alertar() {
+
+    alert("porra");
+}
